@@ -1,4 +1,4 @@
-# HW0-Environment Set Up
+# HW0: Environment Set Up
 
 This assignment aims to guide you to learn how to install and set up the Golang environment. Please follow the following steps to build up your Golang environment.
 
