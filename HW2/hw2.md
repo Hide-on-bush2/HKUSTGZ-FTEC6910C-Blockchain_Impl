@@ -284,3 +284,7 @@ Your score is based on the number of testing functions your implementation passe
 |TestCacheFlushedWhenFull	|10|
 |TestCoinsStoredInCacheAndDB	|10|
 |Total	|50|
+
+## Demo Video
+
+![](./img/demo.mov)
