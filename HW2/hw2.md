@@ -287,4 +287,4 @@ Your score is based on the number of testing functions your implementation passe
 
 ## Demo Video
 
-![](./img/demo.mp4)
+![](./img/demo.gif)
