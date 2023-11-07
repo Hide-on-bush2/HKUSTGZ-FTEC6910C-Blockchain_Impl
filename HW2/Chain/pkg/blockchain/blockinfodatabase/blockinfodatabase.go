@@ -64,5 +64,6 @@ func (blockInfoDB *BlockInfoDatabase) GetBlockRecord(hash string) *BlockRecord {
 	// from bytes to protobuf object succeeds.
 	
 	// 4. convert the protobuf record to a normal blockRecord and returning that.
-	
+
+  return nil
 }

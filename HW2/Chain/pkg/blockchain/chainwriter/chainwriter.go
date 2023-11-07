@@ -8,7 +8,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"log"
 	"os"
-	"strconv"
+	//"strconv"
 )
 
 // ChainWriter handles all I/O for the BlockChain. It stores and retrieves
@@ -128,6 +128,8 @@ func (cw *ChainWriter) WriteBlock(serializedBlock []byte) *FileInfo {
 	// 6. update offset for next write
 	
 	// 7. return the file info
+
+  return nil
 	
 }
 
@@ -172,7 +174,8 @@ func (cw *ChainWriter) WriteUndoBlock(serializedUndoBlock []byte) *FileInfo {
 	// 6. update offset for next write
 	
 	// 7. return the file info
-	
+
+  return nil
 }
 
 // ReadBlock returns a Block given a FileInfo.
