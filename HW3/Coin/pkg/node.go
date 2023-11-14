@@ -101,7 +101,7 @@ func New(conf *Config) *Node {
 	return n
 }
 
-// Implementation task 6
+// Implementation task 3
 // BroadcastTransaction broadcasts transactions created by the wallet
 // to other peers in the network.
 func (n *Node) BroadcastTransaction(tx *block.Transaction) {
@@ -163,7 +163,7 @@ func (n *Node) Start() {
 	}()
 }
 
-// Implementation task 7
+// Implementation task 4
 // HandleMinerBlock handles a block
 // that was just made by the miner. It does this
 // by sending the block to the chain so that it can be

@@ -137,7 +137,7 @@ func (w *Wallet) generateTransactionOutputs(
 }
 
 
-// Implementation task 5
+// Implementation task 2
 // RequestTransaction allows the wallet to send a transaction to the node,
 // which will propagate the transaction along the P2P network.
 func (w *Wallet) RequestTransaction(amount uint32, fee uint32, recipientPK []byte) *block.Transaction {
@@ -154,7 +154,7 @@ func (w *Wallet) RequestTransaction(amount uint32, fee uint32, recipientPK []byt
   return nil
 }
 
-// Implementation task 4
+// Implementation task 1
 // HandleBlock handles the transactions of a new block. It:
 // (1) sees if any of the inputs are ones that we've spent
 // (2) sees if any of the incoming outputs on the block are ours
@@ -162,13 +162,8 @@ func (w *Wallet) RequestTransaction(amount uint32, fee uint32, recipientPK []byt
 // another confirmation!
 func (w *Wallet) HandleBlock(txs []*block.Transaction) {
 	// 1.most of the time, we will just be handling the transactions
-	for _, tx := range txs {
-		// 2. see if this is a transaction we've spent a coin on
-		
-		// 3. check outputs to see if they contain any coins for us
-		
-	}
-  // 4. update the confirmation state
+	
+  // 2. update the confirmation state
 
 }
 

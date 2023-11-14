@@ -3,7 +3,7 @@ package miner
 import (
 	"Coin/pkg/block"
 	"Coin/pkg/utils"
-	"bytes"
+	//"bytes"
 	"context"
 	"fmt"
 	"math"
@@ -57,7 +57,7 @@ import (
 //	}
 //}
 
-// Implementation task 3
+// Implementation task 7
 // Mine When asked to mine, the miner selects the transactions
 // with the highest priority to add to the mining pool.
 func (m *Miner) Mine() *block.Block {
@@ -83,7 +83,7 @@ func (m *Miner) Mine() *block.Block {
 	return nil
 }
 
-//Implementation Task 1
+//Implementation Task 5
 // CalculateNonce finds a winning nonce for a block. It uses context to
 // know whether it should quit before it finds a nonce (if another block
 // was found). ASICSs are optimized for this task.
@@ -91,7 +91,7 @@ func (m *Miner) CalculateNonce(ctx context.Context, b *block.Block) bool {
 	return false
 }
 
-// Implementation task 2
+// Implementation task 6
 // GenerateCoinbaseTransaction generates a coinbase
 // transaction based off the transactions in the mining pool.
 // It does this by combining the fee reward to the minting reward,
