@@ -26,6 +26,33 @@ The final step is clicking the downloaded dmg package and then completing the in
 
 ![](./img/5.png)
 
+### Windows
+
+We highly recommand you to follow this script if you are using a Windows PC to work on the projects. In this file, we use [GoLand](https://www.jetbrains.com/go/) from JetBrains to start your Golang. Goland is a complete IDE that is great for read, write and complie of Go code. If you're using a MacBook, it is also good for you to read and follow this script.
+
+You can apply for a JetBrains lisence using your student email and download the app for free. You should see `License restriction:	For educational use only` for the applied lisence.
+
+Go to the jetbrains [official website](https://www.jetbrains.com/go/download/#section=windows) and download the package.
+
+![](./img/goland_download.png)
+
+Create a new project called `gowork` and the app will initialize the environment for you.
+
+![](./img/goland_newproject.png)
+
+You should see the following interface.
+
+![](./img/goland_interface.png)
+
+Go to the left bottom and click the command line sign, then type in `go version`. You should see one of the following depending on your os. 
+
+![](./img/goland_commandwindow.png)
+![](./img/goversion.jpg)]
+
+Then go has been succussfully installed to your PC. 
+
+For the following steps, always use the command line inside the IDE. You can also use graphic interactions to create, run, delete and modify the files. And one thing to notice is that, you won't need to `go mod init` if you are using GoLand.
+
 ### Ubuntu
 
 Firstly, click the `Download` button on the official installation website, and choose the following package to download.
